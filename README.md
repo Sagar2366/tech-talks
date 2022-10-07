@@ -115,3 +115,12 @@ Once we confirm the Import dialog, we’ll be redirected to the new Dashboard.
 
 If everything went well, you’ll be able to see your cluster’s information in the Dashboard.
 
+## Cleanup
+Delete the cluster and other resources created for the demo
+
+```
+helm delete grafana
+helm delete prometheus
+minikube delete cluster
+```
+
