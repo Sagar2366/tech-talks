@@ -2,6 +2,12 @@
 Instructions to setup Kubernetes Cluster monitoring on Minikube cluster
 
 
+## Prerequisites
+- [Kubectl](https://kubernetes.io/docs/tasks/tools/)
+- [Docker](https://docs.docker.com/desktop/)
+- [Helm](https://helm.sh/docs/intro/install/)
+
+
 ## Minikube Setup :
 
 Install Minikube
@@ -24,3 +30,6 @@ I created a local cluster with two nodes with the following command:
 Then, run a kubectl command to verify it looks good:
 
 <img width="1520" alt="Screenshot 2022-10-07 at 12 15 12 PM" src="https://user-images.githubusercontent.com/26805882/194484666-48061e4c-86ed-43e7-887c-26e156859750.png">
+
+
+## 
