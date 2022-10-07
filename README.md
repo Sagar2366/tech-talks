@@ -1,2 +1,26 @@
 # kubernetes-monitoring
 Instructions to setup Kubernetes Cluster monitoring on Minikube cluster
+
+
+## Minikube Setup :
+
+Install Minikube
+
+To install Minikue on Mac is easy by using brew:
+
+`brew install minikube`
+
+
+## Start a Cluster using Minikube
+
+Once Minikube gets installed successfully, you could start a local Kubernetes cluster quickly with it.
+
+I created a local cluster with two nodes with the following command:
+
+`minikube start -n 2`
+
+<img width="1520" alt="Screenshot 2022-10-07 at 12 13 50 PM" src="https://user-images.githubusercontent.com/26805882/194484450-0141d304-1f78-44cf-8810-0eacd8ee3d71.png">
+
+Then, run a kubectl command to verify it looks good:
+
+<img width="1520" alt="Screenshot 2022-10-07 at 12 15 12 PM" src="https://user-images.githubusercontent.com/26805882/194484666-48061e4c-86ed-43e7-887c-26e156859750.png">
