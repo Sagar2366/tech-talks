@@ -86,3 +86,26 @@ We can now load the Grafana web interface using the admin user and the password 
 `minikube service grafana-np`
 
 
+
+## Configure Prometheus datasource in Grafana
+
+Once we’re logged in to the admin interface, it’s time to configure the Prometheus Datasource.
+
+We need to head to Configuration > Datasources and add a new Prometheus instance.
+
+The URL for our Prometheus instance is the name of the service `http://prometheus-server:80`
+
+
+
+## Import Kubernetes dashboard
+
+Next, we’ll setup one of the many already available community provided Kubernetes Dashboards.
+
+We head to `Create (+) > Import` section to `Import via grafana.com` and we set `6417` into the id field and click `Load`.
+
+In the dashboard configuration we need to select the Prometheus Datasource we created in the earlier step.
+
+Once we confirm the Import dialog, we’ll be redirected to the new Dashboard.
+
+If everything went well, you’ll be able to see your cluster’s information in the Dashboard.
+
