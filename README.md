@@ -107,5 +107,11 @@ In the dashboard configuration we need to select the Prometheus Datasource we cr
 
 Once we confirm the Import dialog, we’ll be redirected to the new Dashboard.
 
+
+
+<img width="1734" alt="Screenshot 2022-10-07 at 2 49 38 PM" src="https://user-images.githubusercontent.com/26805882/194519910-968a818a-7e11-48c5-8ad6-4a8df0150ee4.png">
+
+
+
 If everything went well, you’ll be able to see your cluster’s information in the Dashboard.
 
