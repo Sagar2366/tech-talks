@@ -121,6 +121,6 @@ Delete the cluster and other resources created for demo
 ```
 helm delete grafana
 helm delete prometheus
-minikube delete cluster
+minikube delete
 ```
 
