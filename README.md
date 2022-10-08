@@ -5,7 +5,7 @@ Instructions to setup Kubernetes Cluster monitoring on Minikube cluster
 ## Prerequisites
 - [Kubectl](https://kubernetes.io/docs/tasks/tools/)
 - [Docker](https://docs.docker.com/desktop/)
-- [Helm](https://helm.sh/docs/intro/install/)
+- [Helm3](https://helm.sh/docs/intro/install/)
 
 
 ## Minikube Setup :
