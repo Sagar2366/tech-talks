@@ -1,3 +1,3 @@
 # TECH TALKS
 
-Events decks, references and other materials 
+Events decks, references and other materials.
