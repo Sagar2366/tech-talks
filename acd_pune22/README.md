@@ -92,13 +92,43 @@
 
 
 ### Upgrading clusters
+```
+    kops get ig
+    kops edit ig <<instance_group_name>>
+
+    kops get cluster
+    kops edit cluster acd.k8s.local
+
+    kops update cluster
+
+    kops update cluster --yes
+    
+    kops validate cluster
+
+    kops rolling-update cluster --name acd.k8s.local --instance-group <MASTER_NODE_IG_NAME> --yes
+
+    kops validate cluster 
+
+    kops get cluster
+    
+```
+
+### Deploy sample application in K8S cluster
+```
+    helm install --create-namespace --namespace hello-kubernetes custom-message ./hello-kubernetes \
+        --set message="Thank you for joining us at AWS Community Day Pune 2022 !!!"
+
+    # get the LoadBalancer ip address.
+    kubectl get svc hello-kubernetes-custom-message -n hello-kubernetes -o 'jsonpath={ .status.loadBalancer.ingress[0].ip }'
+
+```
 
 ### Addons
-    - Monitoring for K8S cluster
-    - RBAC Setup
-    - [Audit Logging](https://kops.sigs.k8s.io/cluster_spec/#audit-logging)
-    - Infrastructure and cost alerts
-    - [More information(https://kops.sigs.k8s.io/getting_started/production/)
+- Monitoring for K8S cluster
+- RBAC Setup
+- [Audit Logging](https://kops.sigs.k8s.io/cluster_spec/#audit-logging)
+- Infrastructure and cost alerts
+- [More information(https://kops.sigs.k8s.io/getting_started/production/)
 
 
 
