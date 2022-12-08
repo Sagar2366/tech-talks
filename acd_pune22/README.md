@@ -121,14 +121,28 @@
     # get the LoadBalancer ip address.
     kubectl get svc hello-kubernetes-custom-message -n hello-kubernetes -o 'jsonpath={ .status.loadBalancer.ingress[0].ip }'
 
+    kubectl create deployment my-nginx --image=nginx --replicas=1 --port=80; 
+    kubectl expose deployment my-nginx --port=80 --type=LoadBalancer;
+    kubectl get pods
+    kubectl get svc my-nginx
+
 ```
 
 ### Addons
 - Monitoring for K8S cluster
-- RBAC Setup
+- [RBAC Setup](https://pracucci.com/kubernetes-rbac-with-kops.html)
+- [Verify cluster security using kube-bench](https://github.com/aquasecurity/kube-bench/blob/main/docs/running.md#running-kube-bench)
 - [Audit Logging](https://kops.sigs.k8s.io/cluster_spec/#audit-logging)
-- Infrastructure and cost alerts
+- [Infrastructure and cost alerts](https://docs.kubecost.com/install-and-configure/install)
 - [More information](https://kops.sigs.k8s.io/getting_started/production/)
+
+
+### Cleanup
+Finally, To delete your cluster and all of it’s supporting resources, simply run the following command
+```
+    kops delete cluster --name sanjaybalaji.k8s.local --yes
+```
+For the S3 bucket, you would have to clean it and delete it from the AWS Console GUI.
 
 
 
