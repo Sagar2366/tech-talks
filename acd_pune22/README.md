@@ -32,13 +32,7 @@
 
 
 
-3. Install
-
-    [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
-
-    [KOPS](https://kops.sigs.k8s.io/getting_started/install/)
-
-    [Kubectl](https://kubernetes.io/docs/tasks/tools/#kubectl) 
+3. Install [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html), [KOPS](https://kops.sigs.k8s.io/getting_started/install/, [Kubectl](https://kubernetes.io/docs/tasks/tools/#kubectl) 
 
 
 
