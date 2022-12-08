@@ -128,7 +128,7 @@
 - RBAC Setup
 - [Audit Logging](https://kops.sigs.k8s.io/cluster_spec/#audit-logging)
 - Infrastructure and cost alerts
-- [More information(https://kops.sigs.k8s.io/getting_started/production/)
+- [More information](https://kops.sigs.k8s.io/getting_started/production/)
 
 
 
