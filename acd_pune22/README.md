@@ -50,16 +50,55 @@
         --topology private 
         --networking calico 
         --vpc <<VPC_ID>>
+        --bastion
         --ssh-public-key ~/.ssh/acd_public
+
+    kops edit cluster acd.k8s.local
+
+    kops update cluster
+
+    kops update cluster --yes
+
+    kops get cluster
+
+    kops validate cluster
+
+    kubectl get nodes
+
+    kubectl get pods -n kube-system
+
     ```
 
-### SSH access to clusters
-1. 
-- Upgrading clusters
-- Monitoring for K8S cluster
-- RBAC Setup
-- Audit Logging
-- Infrastructure and cost alerts
+
+### Launch Bastion and SSH access to clusters
+```
+    kops create instancegroup bastion-ig --role Bastion --subnet public_subnet --name acd.k8s.local
+
+    kops edit ig bastions --name  bastion-ig
+
+    kops update cluster
+
+    kops update cluster --yes
+
+    kops get cluster
+
+    Update security group to allow SSH traffic on bastion
+
+    Setup AWS CLI, KOPS, Kubectl, environment variables to access kubernetes cluster
+
+    Export kubeconfig to interact with cluster : kops export kubecfg --name acd.k8s.local
+
+```
+
+
+### Upgrading clusters
+
+### Addons
+    - Monitoring for K8S cluster
+    - RBAC Setup
+    - [Audit Logging](https://kops.sigs.k8s.io/cluster_spec/#audit-logging)
+    - Infrastructure and cost alerts
+    - [More information(https://kops.sigs.k8s.io/getting_started/production/)
 
 
 
