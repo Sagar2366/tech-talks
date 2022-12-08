@@ -6,9 +6,13 @@
 ### Setup k8s Cluster in AWS using KOPS
 
 1. Setup AWS environment 
+
     [IAM User setup](https://kops.sigs.k8s.io/getting_started/aws/#setup-iam-user)
+    
     [Configure DNS](https://kops.sigs.k8s.io/getting_started/aws/#configure-dns)
+    
     [Cluster state storage - S3 bucket with versioning enabled](https://kops.sigs.k8s.io/getting_started/aws/#cluster-state-storage)
+    
     Create SSH keypair on AWS, download it locally
     
 
