@@ -16,19 +16,31 @@
     Create SSH keypair on AWS, download it locally
     
 
+
+
 2. Prepare Local environemnt
     ```
     export NAME=acd.k8s.local
+    
     export KOPS_STATE_STORE=s3://acd_cluster_s3_bucket
 
-    Create public key for SSH private key using : ssh-keygen -y -f acd_private.pem > acd_public.pub
+    Create public key for downloaded private key using -
+                ssh-keygen -y -f acd_private.pem > acd_public.pub
+    
     Change file permission to 600
     ```
 
+
+
 3. Install
-    [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html), 
-    [KOPS](https://kops.sigs.k8s.io/getting_started/install/),
+```
+    [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
+
+    [KOPS](https://kops.sigs.k8s.io/getting_started/install/)
+
     [Kubectl](https://kubernetes.io/docs/tasks/tools/#kubectl) 
+```
+
 
 
 4. Launch KOPS cluster in AWS
