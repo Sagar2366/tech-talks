@@ -24,10 +24,11 @@
     
     export KOPS_STATE_STORE=s3://acd_cluster_s3_bucket
 
+    Change file permission to 600 -
+                chmod 600 acd_private.pem
     Create public key for downloaded private key using -
                 ssh-keygen -y -f acd_private.pem > acd_public.pub
     
-    Change file permission to 600
     ```
 
 
