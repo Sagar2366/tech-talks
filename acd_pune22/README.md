@@ -130,7 +130,7 @@
 ```
 
 ### Addons
-- Monitoring for K8S cluster
+- [Monitoring for K8S cluster](https://docs.wavefront.com/kubernetes.html?utm_source=Website&utm_medium=referral&utm_campaign=integrations-page)
 - [RBAC Setup](https://pracucci.com/kubernetes-rbac-with-kops.html)
 - [Verify cluster security using kube-bench](https://github.com/aquasecurity/kube-bench/blob/main/docs/running.md#running-kube-bench)
 - [Audit Logging](https://kops.sigs.k8s.io/cluster_spec/#audit-logging)
