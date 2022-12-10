@@ -41,6 +41,23 @@ curl -fsSL -o get_helm.sh https://raw.githubusercontent.com/helm/helm/main/scrip
 chmod 700 get_helm.sh
 ./get_helm.sh
 
+
+echo "#####################################################"
+echo "Setting up environment"
+echo "#####################################################"
+
+API_KEY=<<API_KEY>>
+ACCESS_KEY=<<ACCESS_KEY>>
+
+aws configure set aws_access_key_id $API_KEY
+aws configure set aws_secret_access_key $ACCESS_KEY
+aws configure set aws_region ap-south-1
+aws configure set aws_output json
+
+export KOPS_STATE_STORE=s3://kops-cluster-state-bucket
+kops export kubecfg --name kopstest.k8s.local --admin
+
 echo "#####################################################"
 echo "Done"
 echo "#####################################################"
+

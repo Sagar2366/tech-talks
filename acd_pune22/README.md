@@ -129,6 +129,12 @@
 
 ```
 
+### Monitoring using wavefront
+
+```
+kubectl create namespace wavefront && helm install wavefront wavefront/wavefront     --set wavefront.url=https://longboard.wavefront.com     --set wavefront.token=<<token>>     --set clusterName="kopstest.k8s.local" --namespace wavefront
+```
+
 ### Addons
 - [Monitoring for K8S cluster](https://docs.wavefront.com/kubernetes.html?utm_source=Website&utm_medium=referral&utm_campaign=integrations-page)
 - [RBAC Setup](https://pracucci.com/kubernetes-rbac-with-kops.html)
@@ -136,6 +142,8 @@
 - [Audit Logging](https://kops.sigs.k8s.io/cluster_spec/#audit-logging)
 - [Infrastructure and cost alerts](https://docs.kubecost.com/install-and-configure/install)
 - [More information](https://kops.sigs.k8s.io/getting_started/production/)
+
+
 
 
 ### Cleanup
