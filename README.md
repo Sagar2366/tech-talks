@@ -7,4 +7,4 @@ Events decks, references and other materials.
 
 GSOC and Open Source at JSPM's Rajarshi Shahu College of Engineering Pune. - On Hold
 
-GDG DevFest Raipur - Life changing experience with Open source 
+GDG DevFest Raipur - Life changing experience with Open source - Done
