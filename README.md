@@ -9,3 +9,4 @@ GSOC and Open Source at JSPM's Rajarshi Shahu College of Engineering Pune. - On 
 
 GDG DevFest Raipur - Life changing experience with Open source - Done
 AWS Community Day Rajasthan - Done
+Docker Pune meetup Jan 2023 
