@@ -11,5 +11,6 @@ GDG DevFest Raipur - Life changing experience with Open source - Done
 AWS Community Day Rajasthan - Done
 Docker Pune meetup 28, Jan 2023 - In progress
 
-MIT ADT PUNE
-COEP PUNE
+MIT ADT PUNE - Cloud and DevOps 
+COEP PUNE - Docker
+
