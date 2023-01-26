@@ -14,4 +14,5 @@ Docker Pune meetup 28, Jan 2023 - In progress
 
 MIT ADT PUNE - Cloud and DevOps 
 COEP PUNE - Docker and Kubernetes 
+PICT PUNE 
 
