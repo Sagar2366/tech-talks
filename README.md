@@ -13,7 +13,7 @@ AWS Community Day Pune - Done
 Docker Pune meetup 28, Jan 2023 - In progress
 
 MIT ADT PUNE - Cloud and DevOps 
-COEP PUNE - Docker and Kubernetes 
+COEP PUNE - Docker Fundamentals 
 CNCF Thane
 DayOps Days online 
 PICT PUNE 
