@@ -14,7 +14,7 @@ Docker Pune meetup 28, Jan 2023 - In progress
 
 MIT ADT PUNE - Cloud and DevOps 
 COEP PUNE - Docker Fundamentals 
-CNCF Thane
-DayOps Days online 
+CNCF Thane - Kubernetes Security 
+DayOps Days online  
 PICT PUNE 
 
