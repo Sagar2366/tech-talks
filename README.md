@@ -18,3 +18,7 @@ CNCF Thane - Kubernetes Security
 DayOps Days online  
 PICT PUNE 
 
+
+CFP - 
+KCD
+
