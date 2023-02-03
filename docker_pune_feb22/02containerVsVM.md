@@ -13,4 +13,6 @@ VM virtualizes entire OS and boots from own kernel
 Docker VS VM -
 1. Size of docker images are in MB, VM sizes can be in GB
 2. Docker containers start and run much faster
+3. VM takes minutes to bootup where as containers compes up quickly
+4. VM's comsumes more CPU, MEMORY than docker containers
 ```

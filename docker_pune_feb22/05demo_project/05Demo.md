@@ -11,6 +11,10 @@ All components are docker-based
 
 #### To start the application
 
+docker run mongo
+docker run mongo-express
+docker ps
+
 Step 1: Create docker network
 
     docker network create mongo-network 
