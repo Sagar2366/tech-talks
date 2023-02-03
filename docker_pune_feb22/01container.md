@@ -1,9 +1,19 @@
 ```
+
+Why do we need Docker -
+- The matric from Hell problem
+- Compatibility and dependency issues
+- Long time setup 
+- Different Dev/Test/Prod environments
+
+
 What is a container ?
 
 - A way to package application with all the necessary dependecies and configurations
 - Portable artifact, easily shared and moved around
 - Makes development and deployment more effiecient
+- Isolated environments with own processes, file systems, network interfaces and shares same host kernel
+
 
 Application development before containers
 - Diff installation process on each OS environment
