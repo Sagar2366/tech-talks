@@ -10,15 +10,15 @@ GSOC and Open Source at JSPM's Rajarshi Shahu College of Engineering Pune. - On 
 GDG DevFest Raipur - Life changing experience with Open source - Done
 AWS Community Day Rajasthan - Done
 AWS Community Day Pune - Done
-Docker Pune meetup 28, Jan 2023 - In progress
+Docker Pune meetup 28, Jan 2023 - Done
 
 MIT ADT PUNE - Cloud and DevOps 
-COEP PUNE - Docker Fundamentals 
+COEP PUNE - Docker Feb Meetup : Docker Fundamentals workshop
 CNCF Thane - Kubernetes Security 
-DayOps Days online  
+DayOps Days online  - Monitoring Kubernetes Cluster using Prometheus, Grafana and Alertframework
 PICT PUNE 
 
 
-CFP - 
+Call For proposals - 
 KCD
-
+Foss United
