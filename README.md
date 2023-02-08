@@ -16,7 +16,7 @@ DayOps Days online  - Monitoring Kubernetes Cluster using Prometheus, Grafana an
 
 In Progress
 MIT ADT PUNE - Cloud and DevOps - 17th Feb
-CNCF Thane - Kubernetes Security - 11th Feb
+CNCF Thane Feb Meetup - Kubernetes Security - 11th Feb
 CNCF Pune Feb Meetup - 18th Feb
 
 On Hold
