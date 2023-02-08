@@ -19,7 +19,7 @@ Completed :
 In Progress
 ```
 1. MIT ADT PUNE - Cloud and DevOps - 17th Feb
-2. CNCF Thane Feb Meetup - Kubernetes Security - 11th Feb
+2. CNCF Thane Feb Meetup - Kubernetes Security - 11th Feb - Postponed 
 3. CNCF Pune Feb Meetup - 18th Feb
 ```
 
