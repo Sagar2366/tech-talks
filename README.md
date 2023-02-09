@@ -19,8 +19,7 @@ Completed :
 In Progress
 ```
 1. MIT ADT PUNE - Cloud and DevOps - 17th Feb
-2. CNCF Thane Feb Meetup - Kubernetes Security - 11th Feb - Postponed 
-3. CNCF Pune Feb Meetup - 18th Feb
+2. CNCF Pune Feb Meetup - 18th Feb
 ```
 
 On Hold
@@ -28,6 +27,7 @@ On Hold
 1. PICT Pune
 2. IOPE Lonere
 3. GSOC and Open Source at JSPM's Rajarshi Shahu College of Engineering Pune
+4. CNCF Thane Feb Meetup - Kubernetes Security - 11th Feb - Postponed 
 ```
 
 Call For proposals - 
