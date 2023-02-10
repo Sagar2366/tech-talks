@@ -18,7 +18,7 @@ Completed :
 
 In Progress
 ```
-1. MIT ADT PUNE - Cloud and DevOps - 17th Feb
+1. MIT ADT PUNE Persona'23- Cloud and DevOps - 17th Feb
 2. CNCF Pune Feb Meetup - 18th Feb
 ```
 
