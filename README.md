@@ -14,14 +14,14 @@ Completed :
 4. Docker Pune meetup 28, Jan 2023
 5. COEP PUNE - Docker Pune Feb Meetup : Docker Fundamentals workshop
 6. DayOps Days online  - Monitoring Kubernetes Cluster using Prometheus, Grafana and Alertframework
+7. MIT ADT PUNE Persona'23- Cloud and DevOps - 17th Feb
 ```
 
 In Progress
-```
-1. MIT ADT PUNE Persona'23- Cloud and DevOps - 17th Feb
-2. CNCF Pune Feb Meetup - postponed 
-3. BrewOps Pune
-4. AWS PUNE - APRIL MEET-UP 
+``` 
+1. CNCF Pune Feb Meetup - postponed 
+2. BrewOps Pune
+3. AWS PUNE - APRIL MEET-UP 
 ```
 
 On Hold
