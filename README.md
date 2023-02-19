@@ -18,10 +18,10 @@ Completed :
 ```
 
 In Progress
-``` 
-1. CNCF Pune Feb Meetup - postponed 
-2. BrewOps Pune
-3. AWS PUNE - APRIL MEET-UP 
+```  
+1. BrewOps Pune
+2. AWS PUNE - APRIL MEET-UP
+3. Docker CNCF March joint meetup 
 ```
 
 On Hold
