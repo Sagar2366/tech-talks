@@ -19,9 +19,9 @@ Completed :
 
 In Progress
 ```  
-1. BrewOps Pune
+1. BrewOps Pune - 24th Feb
 2. AWS PUNE - APRIL MEET-UP
-3. Docker CNCF March joint meetup 
+3. Docker CNCF March joint meetup
 ```
 
 On Hold
