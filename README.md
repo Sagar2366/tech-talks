@@ -34,6 +34,6 @@ On Hold
 
 Call For proposals - 
 ```
-1. KCD
+1. KCD Bangalore 
 2. Foss United
 ```
