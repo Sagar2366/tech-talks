@@ -22,6 +22,7 @@ In Progress
 1. BrewOps Pune - 24th Feb
 2. AWS PUNE - APRIL MEET-UP
 3. Docker CNCF March joint meetup
+4. PICT Pune - workshop on Cloud Computing - March'23
 ```
 
 On Hold
