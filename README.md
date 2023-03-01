@@ -23,6 +23,7 @@ In Progress
 2. AWS PUNE - APRIL MEET-UP
 3. Docker CNCF March joint meetup
 4. PICT Pune - workshop on Cloud Computing - March'23
+5. JSPM Rajarshi Shahu College of Engineering - GSOC and Open Source
 ```
 
 On Hold
