@@ -15,15 +15,14 @@ Completed :
 5. COEP PUNE - Docker Pune Feb Meetup : Docker Fundamentals workshop
 6. DayOps Days online  - Monitoring Kubernetes Cluster using Prometheus, Grafana and Alertframework
 7. MIT ADT PUNE Persona'23- Cloud and DevOps - 17th Feb
+8. Docker CNCF Pune March joint meetup - 4th March
 ```
 
 In Progress
 ```  
-1. BrewOps Pune - 24th Feb
-2. AWS PUNE - APRIL MEET-UP
-3. Docker CNCF March joint meetup
-4. PICT Pune - workshop on Cloud Computing - March'23
-5. JSPM Rajarshi Shahu College of Engineering - GSOC and Open Source
+1. AWS PUNE - APRIL MEET-UP
+2. PICT Pune - workshop on Cloud Computing - March'23
+3. JSPM Rajarshi Shahu College of Engineering - GSOC and Open Source
 ```
 
 On Hold
