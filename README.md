@@ -22,7 +22,6 @@ In Progress
 ```  
 1. AWS PUNE - APRIL MEET-UP
 2. PICT Pune - workshop on Cloud Computing - March'23
-3. JSPM Rajarshi Shahu College of Engineering - GSOC and Open Source
 ```
 
 On Hold
