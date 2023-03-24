@@ -22,8 +22,7 @@ In Progress
 ```  
 1. AWS PUNE - APRIL MEET-UP
 2. PICT Pune - workshop on Cloud Computing - March'23
-3. CNCF Hyderabad March meetup 
-4. DOCKER CNCF Pune April meetup
+3. DOCKER CNCF Pune April meetup
 ```
 
 On Hold
