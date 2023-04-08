@@ -16,13 +16,13 @@ Completed :
 6. DayOps Days online  - Monitoring Kubernetes Cluster using Prometheus, Grafana and Alertframework
 7. MIT ADT PUNE Persona'23- Cloud and DevOps - 17th Feb
 8. Docker CNCF Pune March joint meetup - 4th March
+9. AWS PUNE - APRIL MEET-UP - 8th April, 2023
 ```
 
 In Progress
 ```  
-1. AWS PUNE - APRIL MEET-UP
-2. PICT Pune - workshop on Cloud Computing - March'23
-3. DOCKER CNCF Pune April meetup
+1. PICT Pune - workshop on Cloud Computing - March'23
+2. DOCKER CNCF Pune April meetup
 ```
 
 On Hold
