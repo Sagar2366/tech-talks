@@ -17,12 +17,13 @@ Completed :
 7. MIT ADT PUNE Persona'23- Cloud and DevOps - 17th Feb
 8. Docker CNCF Pune March joint meetup - 4th March
 9. AWS PUNE - APRIL MEET-UP - 8th April, 2023
+10. DOCKER CNCF Pune April meetup - 9th April, 2023
 ```
 
 In Progress
 ```  
 1. PICT Pune - workshop on Cloud Computing - March'23
-2. DOCKER CNCF Pune April meetup
+2. CNCF HYDERABAD APRIL MEETUP
 ```
 
 On Hold
