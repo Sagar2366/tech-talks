@@ -24,6 +24,7 @@ In Progress
 ```  
 1. PICT Pune - workshop on Cloud Computing - March'23
 2. CNCF HYDERABAD APRIL MEETUP
+3. Cloud Computing 101 - PRACEDGE Online
 ```
 
 On Hold
