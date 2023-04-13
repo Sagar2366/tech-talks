@@ -31,7 +31,6 @@ On Hold
 ```
 1. IOPE Lonere
 2. GSOC and Open Source at JSPM's Rajarshi Shahu College of Engineering Pune
-3. CNCF Thane Feb Meetup - Kubernetes Security - 11th Feb - Postponed 
 ```
 
 Call For proposals - 
