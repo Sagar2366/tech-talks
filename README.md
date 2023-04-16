@@ -18,13 +18,14 @@ Completed :
 8. Docker CNCF Pune March joint meetup - 4th March
 9. AWS PUNE - APRIL MEET-UP - 8th April, 2023
 10. DOCKER CNCF Pune April meetup - 9th April, 2023
+11. Cloud Computing 101 - PRACEDGE Online - 15th April, 2023
 ```
 
 In Progress
 ```  
 1. PICT Pune - workshop on Cloud Computing - March'23
 2. CNCF HYDERABAD APRIL MEETUP
-3. Cloud Computing 101 - PRACEDGE Online
+
 ```
 
 On Hold
