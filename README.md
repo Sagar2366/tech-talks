@@ -25,6 +25,7 @@ In Progress
 ```  
 1. PICT Pune - workshop on Cloud Computing - March'23
 2. PICT Pune - INC 2023
+3. CNCF HYDERABAD APRIL MEETUP - 30th April
 
 ```
 
@@ -32,7 +33,7 @@ On Hold
 ```
 1. IOPE Lonere
 2. GSOC and Open Source at JSPM's Rajarshi Shahu College of Engineering Pune
-3. CNCF HYDERABAD APRIL MEETUP
+
 ```
 
 Call For proposals - 
