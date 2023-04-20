@@ -24,8 +24,8 @@ Completed :
 In Progress
 ```  
 1. PICT Pune - workshop on Cloud Computing - March'23
-2. PICT Pune - INC 2023
-3. CNCF HYDERABAD APRIL MEETUP - 30th April
+2. PICT Pune - INC event Judging - 21st April, 2023
+3. CNCF HYDERABAD APRIL MEETUP - 29th April, 2023
 
 ```
 
