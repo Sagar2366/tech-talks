@@ -1,11 +1,3 @@
-<a href="https://jenkins.io">
-    <img width="400" src="https://git-scm.com/images/logo@2x.png">
-</a>
-
-
-Hello I am READEME.md file
-
-
 # TECH TALKS
 
 Events decks, references and other materials.
