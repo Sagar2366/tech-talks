@@ -35,20 +35,11 @@ jobs:
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
 
-      - name: Extract metadata (tags, labels) for Docker
-        id: meta
-        uses: docker/metadata-action@9ec57ed1fcdbf14dcef7dfbe97b2010124a938b7
-        with:
-          images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
-
-      - name: Build and push
-        uses: docker/build-push-action@v4
-        with:
-          context: ./dockerday01/.
-          platforms: linux/amd64,linux/arm64
-          push: true
-          tags: ${{ steps.meta.outputs.tags }}
-          labels: ${{ steps.meta.outputs.labels }}
+      - name: Build the Docker image
+        run: docker build . --file ./dockerday01/Dockerfile --tag learnwithsagar/node-app:${{ github.sha }}
+      
+      - name: Docker Push
+        run: docker push learnwithsagar/node-app:${{ github.sha }}
 
       - name: Docker Scout
         id: docker-scout
@@ -56,6 +47,6 @@ jobs:
         uses: docker/scout-action@dd36f5b0295baffa006aa6623371f226cc03e506
         with:
           command: cves
-          image: docker.io/learnwithsagar/app:latest
+          image: learnwithsagar/node-app:${{ github.sha }}
           only-severities: critical,high
           exit-code: true
