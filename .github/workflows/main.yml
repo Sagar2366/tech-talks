@@ -7,7 +7,7 @@ on:
     branches:
       - '*'
 env:
-  REGISTRY: learnwithsagar.docker.io
+  REGISTRY: docker.io
   IMAGE_NAME: ${{ github.repository }}
   SHA: ${{ github.event.pull_request.head.sha || github.event.after }}
 
@@ -36,28 +36,17 @@ jobs:
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
 
-      - name: Extract Docker metadata
-        id: meta
-        uses: docker/metadata-action@v4.4.0
-        with:
-          images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
-          labels: |
-            org.opencontainers.image.revision=${{ env.SHA }}
-          tags: |
-            type=edge,branch=$repo.default_branch
-            type=semver,pattern=v{{version}}
-            type=sha,prefix=,suffix=,format=short
-
-      - name: Build and push Docker image
-        id: build-and-push
-        uses: docker/build-push-action@v4.0.0
+      - name: Build and push
+        uses: docker/build-push-action@v4
         with:
           context: ./dockerday01/.
+          platforms: linux/amd64,linux/arm64
           push: true
-          tags: ${{ steps.meta.outputs.tags }}
-          labels: ${{ steps.meta.outputs.labels }}
-          cache-from: type=gha
-          cache-to: type=gha,mode=max
+          tags: |
+            user/app:latest
+            user/app:1.0.0
+            docker.io/learnwithsagar/app:latest
+            docker.io/learnwithsagar/app:1.0.0
 
       - name: Docker Scout
         id: docker-scout
@@ -65,6 +54,6 @@ jobs:
         uses: docker/scout-action@dd36f5b0295baffa006aa6623371f226cc03e506
         with:
           command: cves
-          image: ${{ steps.meta.outputs.tags }}
+          image: docker.io/learnwithsagar/app:latest
           only-severities: critical,high
           exit-code: true
