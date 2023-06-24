@@ -7,7 +7,7 @@ on:
     branches:
       - '*'
 env:
-  REGISTRY: docker.io
+  REGISTRY: learnwithsagar.docker.io
   IMAGE_NAME: ${{ github.repository }}
   SHA: ${{ github.event.pull_request.head.sha || github.event.after }}
 
