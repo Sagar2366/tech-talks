@@ -44,7 +44,7 @@ jobs:
       - name: Docker Scout
         id: docker-scout
         if: ${{ github.event_name == 'pull_request' }}
-        uses: docker/scout-action@dd36f5b0295baffa006aa6623371f226cc03e506
+        uses: docker/scout-action@dckr_pat_FIue-qNw-M_r1_iduKlqDaJJ86I
         with:
           command: cves
           image: learnwithsagar/node-app:${{ github.sha }}
