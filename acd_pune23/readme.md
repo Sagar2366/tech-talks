@@ -39,6 +39,16 @@ $ kubectl apply -f samples/addons
 $ kubectl rollout status deployment/kiali -n istio-system
 ```
 
-7.  Install Prometheus & Grafana for Monitoring and alerting
-8.  Add security at each layer
+7. Setup ArgoCD
+```
+helm repo add argo https://argoproj.github.io/argo-helm
+helm install argocd argo/argo-cd
+kubectl -n argocd get svc
+Create ArgoCD Application
+
+References - https://blog.fourninecloud.com/installing-argo-cd-using-helm-ed4a0cd0845a
+```
+
+8.  Install Prometheus & Grafana for Monitoring and alerting
+9.  Add security at each layer
 
