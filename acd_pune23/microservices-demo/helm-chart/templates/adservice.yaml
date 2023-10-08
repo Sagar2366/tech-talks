@@ -60,7 +60,7 @@ spec:
         resources:
           {{- toYaml .Values.adService.resources | nindent 10 }}
         readinessProbe:
-          initialDelaySeconds: 20
+          initialDelaySeconds: 22
           periodSeconds: 15
           grpc:
             port: 9555
