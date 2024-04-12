@@ -6,7 +6,7 @@
 
 ## [Architecture](https://kubernetes.io/docs/concepts/architecture/)
 
-## Kubeconfig & RBAC ()
+## Kubeconfig, namespaces, RBAC
 
 ## Workload objects 
    ### Pods
@@ -16,11 +16,17 @@
 
 ## Service & load balancing
 
+## Configmap & secrets
+
+## Volumes
+
 ## Scaling your app
 
 ## Updating K8S application
 
 ## Debugging application
+
+## Monitoring & Logging
 
 ## Kubernetes cheatsheet
    
