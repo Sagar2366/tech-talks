@@ -1,13 +1,29 @@
 # Kubernetes - Cubernetes 
 
+
+
 ## [Roadmap](kubernetes.pdf)
 
+
+
 ## [Setup your first Kubernetes cluster with Kind](https://kind.sigs.k8s.io/docs/user/quick-start/#installation)
+   ### ![n](./assets/kind.png)
+
 
 ## [Architecture](https://kubernetes.io/docs/concepts/architecture/)
-   ### ![n](./assets//kubernetes-cluster-architecture.svg)
+   ### ![n](./assets/kubernetes-cluster-architecture.svg)
 
-## Kubeconfig, namespaces, RBAC
+   
+
+## [Organizing Cluster Access Using kubeconfig Files](https://kubernetes.io/docs/concepts/configuration/organize-cluster-access-kubeconfig/)
+   ### ![n](./assets/kubeconfig.png)
+
+## [Namespaces](https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/)
+   ### ![n](./assets/namespaces.png)
+
+
+## [RBAC]()
+   ### ![n](./assets/RBAC.png)
 
 
 ## Workload objects 
