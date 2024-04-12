@@ -38,7 +38,7 @@
 
    
 ## Configmap & secrets
-
+   ### ![n](./assets/secret_configmap.png)
 
 ## Volumes
    ### ![n](./assets/volumes.webp)
@@ -51,6 +51,9 @@
 ## Debugging application
 
 ## Monitoring & Logging
+   ### ![n](./assets/monitoring_logging.jpeg)
 
 ## Kubernetes cheatsheet
+   ### ![n](./assets/k8scs1.png)
+   ### ![n](./assets/k8scs2.png)
    
