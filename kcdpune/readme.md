@@ -26,18 +26,24 @@
    ### ![n](./assets/RBAC.png)
 
 
-## Workload objects 
+## Workload objects
+   ### ![n](./assets/workloadresources.webp)
    ### Pods
    ### Replicaset
    ### Deployments
    ### Daemonsets
 
 ## Service & load balancing
+   ### ![n](./assets/services.webp)
 
+   
 ## Configmap & secrets
 
-## Volumes
 
+## Volumes
+   ### ![n](./assets/volumes.webp)
+
+   
 ## Scaling your app
 
 ## Updating K8S application
