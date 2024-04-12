@@ -5,8 +5,10 @@
 ## [Setup your first Kubernetes cluster with Kind](https://kind.sigs.k8s.io/docs/user/quick-start/#installation)
 
 ## [Architecture](https://kubernetes.io/docs/concepts/architecture/)
+   ### ![n](./assets//kubernetes-cluster-architecture.svg)
 
 ## Kubeconfig, namespaces, RBAC
+
 
 ## Workload objects 
    ### Pods
