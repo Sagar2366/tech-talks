@@ -6,8 +6,7 @@
 
 
 
-## [Setup your first Kubernetes cluster with Kind](https://kind.sigs.k8s.io/docs/user/quick-start/#installation)
-   ### ![n](./assets/kind.png)
+## [Setup your first Kubernetes cluster with Kind](https://minikube.sigs.k8s.io/docs/start/)
 <br/>
 
 ## [Architecture](https://kubernetes.io/docs/concepts/architecture/)
@@ -28,11 +27,6 @@
    ### Namespaces are a way to organize clusters into virtual sub-clusters — they can be helpful when different teams or projects share a Kubernetes cluster. 
 <br/>
 
-## [RBAC]()
-   ### ![n](./assets/RBAC.png)
-   ### RBAC is a model designed to grant access to resources based on the roles of individual users within an organization.
-<br/>   
-
 ## Workload objects
    ### ![n](./assets/workloadresources.webp)
 <br/>
@@ -40,15 +34,13 @@
 ## Service & load balancing
    ### ![n](./assets/services.webp)
    ### Since pods are ephemeral, a service enables a group of pods, which provide specific functions (web services, image processing, etc.) to be assigned a name and unique IP address (clusterIP). As long as the service is running that IP address, it will not change. Services also define policies for their access.
+
+   ### ClusterIP (default) - Exposes the Service on an internal IP in the cluster. This type makes the Service only reachable from within the cluster.
+   ### NodePort - Exposes the Service on the same port of each selected Node in the cluster using NAT. Makes a Service accessible from outside the cluster using <NodeIP>:<NodePort>. Superset of ClusterIP.
+   ### LoadBalancer - Creates an external load balancer in the current cloud (if supported) and assigns a fixed, external IP to the Service. Superset of NodePort.
+   ### ExternalName - Maps the Service to the contents of the externalName field (e.g. foo.bar.example.com), by returning a CNAME record with its value. No proxying of any kind is set up. This type requires v1.7 or higher of kube-dns, or CoreDNS version 0.0.8 or higher.
 <br/>
    
-## Configmap & secrets
-   ### ![n](./assets/secret_configmap.png)
-<br/>
-
-## Volumes
-   ### ![n](./assets/volumes.webp)
-<br/>
    
 ## Scaling your app
 <br/>
@@ -59,14 +51,6 @@
 ## Debugging application
 <br/>
 
-## Monitoring & Logging
-   ### ![n](./assets/monitoring_logging.jpeg)
-<br/>
-
-
-## Troubleshooting
-https://kind.sigs.k8s.io/docs/user/known-issues/#unable-to-pull-images
 ## Kubernetes cheatsheet
    ### ![n](./assets/k8scs1.png)
    ### ![n](./assets/k8scs2.png)
-   
