@@ -63,6 +63,9 @@
    ### ![n](./assets/monitoring_logging.jpeg)
 <br/>
 
+
+## Troubleshooting
+https://kind.sigs.k8s.io/docs/user/known-issues/#unable-to-pull-images
 ## Kubernetes cheatsheet
    ### ![n](./assets/k8scs1.png)
    ### ![n](./assets/k8scs2.png)
