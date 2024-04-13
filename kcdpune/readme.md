@@ -1,11 +1,5 @@
 # Kubernetes - Cubernetes 
 
-
-
-## [Roadmap](kubernetes.pdf)
-
-
-
 ## [Setup your first Kubernetes cluster with Kind](https://minikube.sigs.k8s.io/docs/start/)
 <br/>
 
